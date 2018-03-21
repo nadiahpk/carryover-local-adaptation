@@ -1,4 +1,5 @@
-# a run in which all individuals are started with the same gene that has the highest reproduction in the majority L habitat type
+# a run in which all individuals are started with the same genotype that has the 
+# highest reproduction in the majority L habitat type
 
 from simulate import simulate
 import random as random

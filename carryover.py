@@ -256,7 +256,7 @@ def dispFnc(parameters, offspring, locn, landscape):
                 prefHabType = 'H'
 
 
-        else: # prefence by philopatry
+        else: # prefence by NHPI
 
             # find the phenotype value expressing the preference
             phen = gene2phen( parameters, offGenotype['phil'], 'phil' )
@@ -290,7 +290,8 @@ def dispFnc(parameters, offspring, locn, landscape):
 def compnSimpleFnc(parameters, flock):
     """
     A simple competition function in which one juvenile of each mating-pair sex
-    becomes a new adult in the flock and all other juveniles die
+    becomes a new adult in the flock and all other juveniles die.
+    Winner found by random weighted choice, where weighting determined by natal habitat type
     """
 
     # find out which positions are open for this flock's mating pair

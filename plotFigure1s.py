@@ -1,3 +1,5 @@
+# run with e.g.: python3 plotFigure1s.py -f ecosystems_1
+
 import pickle
 import numpy as np
 import matplotlib.pyplot as plt
@@ -7,8 +9,6 @@ from carryover import phenInSpace
 from carryover import noOffspringFnc
 from carryover import pcolormeshCorrectionXY
 import sys, getopt
-
-# run with e.g.: python3 plotFigure1s.py -f ecosystems_1
 
 try:
 
@@ -89,7 +89,7 @@ geneTypes = [ geneType for geneType in geneTypeOrder if geneType in parameters['
 phenDictTs = { geneType: list() for geneType in geneTypes } # phenotype values
 noOffspringTs = list() # no offspring
 
-for ecosystem in ecosystems: # TODO modify for burn in
+for ecosystem in ecosystems: # NOTE may want to modify for burn in
 
     noOffspring = [ np.nan if len(flock['adults']) != 2 else noOffspringFnc( parameters, flock['adults'], habType) for flock, habType in zip(ecosystem,landscape) ] # number of offspring in space
 
