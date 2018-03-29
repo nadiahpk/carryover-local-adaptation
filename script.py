@@ -7,7 +7,6 @@ import random as random
 # landscape
 landscape = 21*'L' + 9*'H' + 21*'L' # read as 21 LC territories, 9 HC territories, 21 HC territories
 
-idxRun = 0
 tf = 600        # number of timesteps
 burnInT = 0     # length of burn-in (not stored in pickle result file)
 suffix = '_1' # suffix of file name for pickle results file
