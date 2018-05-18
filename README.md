@@ -8,7 +8,7 @@ The code runs an individual-based, genetically- and spatially-explicit model of 
 
 Kristensen, N.P., Johansson, J., Chisholm, R.A., Smith, H.G., Kokko, H. (2018) Carryover effects from natal habitat type upon competitive ability lead to trait divergence or source-sink dynamics, *Ecology Letters*
 
-** Abstract **
+**Abstract**
 
 Local adaptation to rare habitats is difficult due to gene flow, but can occur if the habitat has higher productivity. Differences in offspring phenotypes have attracted little attention in this context. We model a scenario where the rarer habitat improves offsprings' later competitive ability -- a carryover effect that operates on top of local adaptation to one or the other habitat type. Assuming localised dispersal, so offspring tend to settle in similar habitat to the natal type, the superior competitive ability of offspring remaining in the rarer habitat hampers immigration from the majority habitat. This initiates a positive feedback between local adaptation and trait divergence, which can thereafter be reinforced by coevolution with dispersal traits that match ecotype to habitat type. Rareness strengthens selection on dispersal traits and promotes linkage disequilibrium between locally-adapted traits and ecotype-habitat matching dispersal. We propose that carryover effects may initiate isolation by ecology.
 
